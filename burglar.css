@@ -25,6 +25,7 @@ img {
 }*/
 
 #tag a {
+	z-index: 5;
 	position: absolute;
 	left: 5px;
 	bottom: 5px;
