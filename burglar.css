@@ -27,7 +27,7 @@ img {
 */
 
 #tag {
-	z-index: 50;
+	z-index: 10;
 	position: absolute;
 	text-align: center;
 	width: 500px;
