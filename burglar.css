@@ -29,16 +29,17 @@ img {
 #tag {
 	z-index: 50;
 	position: absolute;
+	text-align: center;
+	width: 500px;
 	top: 50px;
-	width: 100%;
-	margin-left: auto;
-	margin-right: auto;
+	left: 50%;
+	margin-left: -250px;
 }
 
 a {
-	font-size: 3em;
+	font-size: 5em;
     font-family: sans-serif;
-    font-variant: italic;
+    font-style: italic;
     font-weight: bold;
     color: #ffffff;
     text-decoration: none;
