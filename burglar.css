@@ -8,34 +8,32 @@ html {
 html, body, #webcam, img {
 	width: 100%;
 	height: 100%;
-	z-index: -1;
 }
-/*
+
+ /* INTRINSIC ASPECT RATIO
+
 #webcam {
 	position: relative;
 	padding-bottom: 75%;
 	height: 0;
 }
-
 img {
 	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
-}*/
-
-img {
-	z-index: -1;
-	opacity: .99;
 }
+*/
 
 #tag a {
-	z-index: 1;
+	z-index: 100;
 	position: absolute;
-	left: 5px;
-	bottom: 5px;
+	text-align: center;
+	top: 50px;
+	font-size: 3em;
     font-family: sans-serif;
+    font-variant: italic;
     font-weight: bold;
     color: #ffffff;
     text-decoration: none;
