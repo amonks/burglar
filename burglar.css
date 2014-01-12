@@ -25,6 +25,11 @@ img {
 	height: 100%;
 }*/
 
+img {
+	z-index: -1;
+	opacity: .99;
+}
+
 #tag a {
 	z-index: 1;
 	position: absolute;
